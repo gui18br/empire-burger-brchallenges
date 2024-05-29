@@ -48,14 +48,6 @@ export default {
       margin: {
         122: "122px",
       },
-      borderRadius: {
-        10: "10px",
-        20: "20px",
-        30: "30px",
-        40: "40px",
-        50: "50px",
-        60: "6000px",
-      },
     },
   },
 
