@@ -7,7 +7,7 @@ function HeaderMenu() {
   const menuItems = ["Home", "Promoção", "Cardápio", "Comentário", "Contato"];
 
   return (
-    <header className="bg-[#3B200B0D] backdrop-blur-sm shadow-md p-3 flex justify-evenly items-center font-normal text-primary w-full fixed top-0 left-0">
+    <header className="bg-[rgba(59,32,11,0.05)] backdrop-blur-sm shadow-md p-3 flex justify-evenly items-center font-normal text-primary w-full z-10 absolute">
       <a href="">
         <div className="flex items-center text-[29.38px]">
           <img src={logo} alt="" className="w-[29.49px] h-[30.81px]" />
@@ -32,9 +32,9 @@ function HeaderMenu() {
         </ul>
       </nav>
 
-      <div className="flex gap-3">
+      <div className="flex gap-3 items-center">
         <a href="">
-          <img src={ifood} alt="" className="w-[27px] h-[14.27px] mt-2" />
+          <img src={ifood} alt="" className="w-[27px] h-[14.27px]" />
         </a>
         <a href="">
           <img src={instagram} alt="" />
