@@ -1,9 +1,10 @@
 import "./App.css";
+import HeaderMenu from "./components/headerMenu/HeaderMenu";
 
 function App() {
   return (
-    <div>
-      <h1>King Burger</h1>
+    <div className="relative">
+      <HeaderMenu />
     </div>
   );
 }
