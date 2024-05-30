@@ -5,12 +5,6 @@ import oferta3 from "../../assets/png/oferta-3.png";
 function PromotionItems() {
   return (
     <div className="flex flex-col items-center justify-center mt-32">
-      {/* <div className="pl-[30px] md:pl-0 md:ml-[30px] text-start">
-        <p>
-          Este é um texto centralizado na página, mas alinhado ao início com uma
-          margem de 30px à esquerda de forma responsiva.
-        </p>
-      </div> */}
       <div className="w-full lg:pl-10 xl:pl-24 p-0">
         <h1 className="text-32 text-secondary font-bold text-left">
           OFERTAS ESPECIAIS
