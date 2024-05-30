@@ -5,6 +5,7 @@ import HeaderBottomMenu from "./components/headerBottomMenu/HeaderBottomMenu";
 import PromotionItems from "./components/promotionItems/PromotionItems";
 import OpeningHours from "./components/openingHours/OpeningHours";
 import MenuItems from "./components/menuItems/MenuItems";
+import PersonalizedService from "./components/personalizedService/PersonalizedService";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
       <PromotionItems />
       <OpeningHours />
       <MenuItems />
+      <PersonalizedService />
+      <div className="flex flex-col justify-center items-center mt-[128px]">
+        <hr className="w-[1000px] border-gray-400" />
+      </div>
     </div>
   );
 }
