@@ -3,6 +3,7 @@ import HeaderMenu from "./components/headerMenu/HeaderMenu";
 import bannerHeader from "./assets/png/bannerHeader.png";
 import HeaderBottomMenu from "./components/headerBottomMenu/HeaderBottomMenu";
 import PromotionItems from "./components/promotionItems/PromotionItems";
+import OpeningHours from "./components/openingHours/OpeningHours";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeaderContent />
       <HeaderBottomMenu />
       <PromotionItems />
+      <OpeningHours />
     </div>
   );
 }
