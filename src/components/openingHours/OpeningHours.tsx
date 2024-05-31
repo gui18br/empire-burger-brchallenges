@@ -27,7 +27,7 @@ function OpeningHours() {
             </p>
           </div>
         </div>
-        <div className="bg-white text-black flex flex-col align-middle justify-center">
+        <div className="bg-[#FAF3F2] text-black flex flex-col align-middle justify-center">
           <h2 className="text-18 text-primary">
             Não esqueça de marcar a gente no Instagram:
           </h2>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import bannerMenu from "../../assets/png/bannerMenu.png";
-import { menuBurger } from "../../services/routes";
+import { getMenuBurger } from "../../services/routes";
 
 interface MenuItemsProps {
   plate: string;
@@ -14,7 +14,7 @@ function MenuItems() {
   useEffect(() => {
     const fetchMenuItems = async () => {
       try {
-        const response = await menuBurger();
+        const response = await getMenuBurger();
         setMenuItems(response);
       } catch (error) {
         console.error(error);
