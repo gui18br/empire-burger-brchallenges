@@ -81,7 +81,7 @@ function Delivery() {
             </p>
           </div>
           <div className="">
-            <button className="bg-[#FAE4D0] p-3 mr-5 rounded-md text-red-600 font-bold text-[18px]">
+            <button className="bg-[#FAE4D0] p-3 mr-5 rounded-md text-red-600 font-bold text-[18px] transition-transform transform hover:-translate-y-1">
               SOLICITAR PEDIDO
             </button>
           </div>

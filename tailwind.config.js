@@ -12,6 +12,7 @@ export default {
       },
       fontWeight: {
         normal: 400,
+        xbold: 900,
       },
       fontSize: {
         77.65: "77.65px",
@@ -55,6 +56,10 @@ export default {
       },
       margin: {
         122: "122px",
+      },
+      fontFamily: {
+        lilita: ["Lilita One", "cursive"],
+        sans: ["Lato", "sans-serif"],
       },
     },
   },

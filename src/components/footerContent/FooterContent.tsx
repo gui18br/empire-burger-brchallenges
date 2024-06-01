@@ -2,23 +2,23 @@ import logo from "../../assets/png/Group 210.png";
 import ifood from "../../assets/png/ifood-43 2.png";
 import instagram from "../../assets/png/insta.png";
 
-export const Footer = () => {
+export const FooterContent = () => {
   return (
     <div>
-      <div className="flex justify-evenly mt-9 items-center gap-48">
+      <div className="flex justify-evenly mt-9 items-center xl:gap-48 gap-30">
         <div>
           <a href="">
             <div className="flex items-center text-[29.38px]">
               <img src={logo} alt="" className="w-[29.49px] h-[30.81px] mr-1" />
-              <h1 className=" text-300">
-                <strong>EMPIRE</strong> BURGER
-              </h1>
+              <h2 className=" text-300">
+                <strong className="font-xbold">EMPIRE</strong> BURGER
+              </h2>
             </div>
           </a>
         </div>
         <div>
           <ul className="flex gap-5">
-            <li className="hover:font-semibold">
+            <li className="hover:font-semibold ">
               <a href="">Home</a>
             </li>
             <li className="hover:font-semibold">
