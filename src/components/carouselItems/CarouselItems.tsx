@@ -61,7 +61,7 @@ const CarouselItems = () => {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="keen-slider__slide bg-white hover:transition-shadow hover:duration-500 hover:shadow-[#00000071] hover:shadow-2xl rounded-xl cursor-grab p-3 "
+            className="keen-slider__slide bg-white hover:transition-shadow hover:duration-500 hover:shadow-[#00000071] hover:shadow-2xl rounded-xl cursor-grab p-3"
           >
             <div className="">
               <p className="text-primary line-clamp-4">
@@ -75,9 +75,9 @@ const CarouselItems = () => {
                 className="w-[48px] h-[48px] rounded-full bg-black "
               />
               <div>
-                <h2 className="text-[18px] text-secondary font-bold">
+                <h1 className="text-[18px] text-secondary font-bold">
                   {testimonial.name}
-                </h2>
+                </h1>
                 <div className="flex gap-1 text-primary">
                   <p>{testimonial.age}</p>
                   <p> • </p>

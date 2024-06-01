@@ -2,8 +2,8 @@ export function Location() {
   return (
     <div className="flex flex-col justify-center items-center mt-16">
       <div className="text-center">
-        <h1 className="text-32 text-secondary font-bold">
-          Onde ficar a nosso castelo
+        <h1 className="text-32 text-secondary font-bold uppercase">
+          Onde fica o nosso castelo
         </h1>
         <p className="text-primary">
           Estaremos de portas abertas para a nossa realeza.

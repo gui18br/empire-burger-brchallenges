@@ -15,9 +15,11 @@ export const SocialPosts = () => {
       <div>
         <img src={burgues} alt="" className="w-full h-full" />
       </div>
-      <div className="bg-300 w-full uppercase font-bold text-[28px] text-center">
-        • #empireburger • #empireburger • #empireburger • #empireburger •
-        #empireburger
+      <div className="bg-300 w-full  uppercase text-[28px] text-center">
+        <h1>
+          • #empireburger • #empireburger • #empireburger • #empireburger •
+          #empireburger
+        </h1>
       </div>
     </div>
   );
