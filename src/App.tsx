@@ -7,6 +7,8 @@ import OpeningHours from "./components/openingHours/OpeningHours";
 import MenuItems from "./components/menuItems/MenuItems";
 import PersonalizedService from "./components/personalizedService/PersonalizedService";
 import CarouselItems from "./components/carouselItems/CarouselItems";
+import { SocialPosts } from "./components/socialPosts/SocialPosts";
+import Delivery from "./components/delivery/Delivery";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <hr className="w-[950px] border-gray-400" />
       </div>
       <CarouselItems />
+      <SocialPosts />
+      <Delivery />
     </div>
   );
 }
