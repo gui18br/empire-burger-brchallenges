@@ -9,6 +9,8 @@ import PersonalizedService from "./components/personalizedService/PersonalizedSe
 import CarouselItems from "./components/carouselItems/CarouselItems";
 import { SocialPosts } from "./components/socialPosts/SocialPosts";
 import Delivery from "./components/delivery/Delivery";
+import { Location } from "./components/location/Location";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
@@ -22,11 +24,13 @@ function App() {
       <MenuItems />
       <PersonalizedService />
       <div className="flex flex-col justify-center items-center mt-[128px]">
-        <hr className="w-[950px] border-gray-400" />
+        <hr className="w-[88%] border-[#1D060526]" />
       </div>
       <CarouselItems />
       <SocialPosts />
       <Delivery />
+      <Location />
+      <Footer />
     </div>
   );
 }
