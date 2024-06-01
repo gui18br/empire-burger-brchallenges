@@ -9,6 +9,7 @@ import PersonalizedService from "./components/personalizedService/PersonalizedSe
 import CarouselItems from "./components/carouselItems/CarouselItems";
 import { SocialPosts } from "./components/socialPosts/SocialPosts";
 import Delivery from "./components/delivery/Delivery";
+import { Location } from "./components/location/Location";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <CarouselItems />
       <SocialPosts />
       <Delivery />
+      <Location />
     </div>
   );
 }
