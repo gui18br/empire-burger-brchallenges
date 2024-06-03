@@ -11,15 +11,15 @@ export const SocialPosts = () => {
           Todos os nossos clientes são tratados como rei e rainha, com a nossa
           colunaria artesanal.
         </p>
-      </div>
-      <div>
-        <img src={burgues} alt="" className="w-full h-full" />
-      </div>
-      <div className="bg-300 w-full  uppercase text-[28px] text-center">
-        <h1>
-          • #empireburger • #empireburger • #empireburger • #empireburger •
-          #empireburger
-        </h1>
+        <div>
+          <img src={burgues} alt="" className="w-full h-full" />
+        </div>
+        <div className="bg-300 w-full  uppercase md:text-[28px] text-[10px] text-center">
+          <h1>
+            • #empireburger • #empireburger • #empireburger • #empireburger •
+            #empireburger
+          </h1>
+        </div>
       </div>
     </div>
   );

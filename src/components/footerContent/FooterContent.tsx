@@ -5,7 +5,7 @@ import instagram from "../../assets/png/insta.png";
 export const FooterContent = () => {
   return (
     <div>
-      <div className="flex justify-evenly mt-9 items-center xl:gap-48 gap-30">
+      <div className="flex md:flex-row flex-col justify-evenly mt-9 items-center xl:gap-48 gap-30">
         <div>
           <a href="">
             <div className="flex items-center text-[29.38px]">

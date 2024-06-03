@@ -31,11 +31,11 @@ function Delivery() {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex justify-center items-center mt-[68.18px]">
+      <div className="flex flex-col md:flex-row justify-between items-center mt-[68.18px] w-[88%]">
         <div>
           <img src={phone} alt="" />
         </div>
-        <div className="ml-10">
+        <div className="md:ml-10">
           <h1 className="text-secondary text-[32px] font-bold mb-4">
             NOSSAS ENTREGAS
           </h1>
@@ -44,7 +44,7 @@ function Delivery() {
               {deliveries.map((delivery, index) => (
                 <div
                   key={index}
-                  className="bg-white w-[569px] h-[90px] hover:shadow-2xl shadow-black py-2 px-4 rounded-lg transition-transform transform hover:translate-y-[-5px] flex gap-5 items-center"
+                  className="bg-white md:w-[569px] h-[90px] hover:shadow-2xl shadow-black py-2 px-4 rounded-lg transition-transform transform hover:translate-y-[-5px] flex gap-5 items-center"
                 >
                   <div className="rounded-full p-4 bg-400 w-[65px] h-[65px] flex justify-center items-center ">
                     <img
@@ -53,7 +53,7 @@ function Delivery() {
                       className="w-[30px] h-[30px]"
                     />
                   </div>
-                  <div className="border-l-[1px] border-gray-300 pl-5">
+                  <div className="border-l-[1px] border-gray-300 pl-5 w-[300px] md:w-full">
                     <h1 className="font-bold text-[20px] text-secondary">
                       {delivery.title}
                     </h1>
@@ -65,23 +65,22 @@ function Delivery() {
           </div>
         </div>
       </div>
-      <div className="mt-[138px] bg-red-600 flex items-center p-4 rounded-xl gap-3">
+      <div className="mt-[138px] bg-red-600 w-[88%] flex items-center p-4 rounded-xl gap-3 md:flex-row flex-col">
         <div className="rounded-full p-4 mr-5 bg-red-700 w-[90px] h-[90px] flex justify-center items-center ml-2">
           <img src={phone2} alt="" />
         </div>
-        <div className="flex justify-center items-center gap-80">
-          <div className="border-l-[0.1px] pl-7 border-red-400">
+        <div className="flex md:flex-row flex-col text-center md:text-start justify-center items-center md:gap-80 gap-16">
+          <div className="md:border-l-[0.1px] md:pl-7 border-red-400">
             <h1 className="uppercase text-25 font-bold text-[#1D0605] ">
               faça o seu pedido agora mesmo!
             </h1>
             <p className="text-white">
-              Venha saborear a melhor experiência de hamburguenses artesanal{" "}
-              <br />
-              do Empires Burger, com temática medieval!
+              Venha saborear a melhor experiência de hamburguenses artesanal do{" "}
+              <strong>Empires Burger</strong>, com temática medieval!
             </p>
           </div>
-          <div className="">
-            <button className="bg-[#FAE4D0] p-3 mr-5 rounded-md text-red-600 font-bold text-[18px] transition-transform transform hover:-translate-y-1">
+          <div className="w-[100%] md:w-[28%]">
+            <button className="bg-[#FAE4D0] w-full  p-3 md:mr-5 rounded-md text-red-600 font-bold text-[18px] transition-transform transform hover:-translate-y-1">
               SOLICITAR PEDIDO
             </button>
           </div>
