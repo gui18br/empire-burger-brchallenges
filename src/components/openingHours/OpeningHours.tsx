@@ -8,7 +8,7 @@ function OpeningHours() {
           <div className=" ml-2">
             <img src={clock} alt="" className=" bg-red-700 p-5 rounded-full " />
           </div>
-          <div className="pl-4 md:mr-20 border-l-[0.1px] border-red-800">
+          <div className="pl-4 xl:mr-20 border-l-[0.1px] border-red-800">
             <h1 className="md:text-25 text-18 font-bold text-[#1D0605B0]">
               Horário de funcionamento
             </h1>

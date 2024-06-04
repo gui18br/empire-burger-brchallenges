@@ -67,12 +67,12 @@ function Delivery() {
           </div>
         </div>
       </div>
-      <div className="mt-[138px] bg-red-600 w-[88%] flex items-center p-4 rounded-xl gap-3 md:flex-row flex-col">
+      <div className="mt-[138px] bg-red-600 w-[88%] flex items-center p-4 rounded-xl gap-3 lg:flex-row flex-col">
         <div className="rounded-full p-4 mr-5 bg-red-700 w-[90px] h-[90px] flex justify-center items-center ml-2">
           <img src={phone2} alt="" />
         </div>
-        <div className="flex md:flex-row flex-col text-center md:text-start justify-center items-center md:gap-80 gap-16">
-          <div className="md:border-l-[0.1px] md:pl-7 border-red-400">
+        <div className="flex lg:flex-row flex-col text-center lg:text-start justify-center items-center lg:gap-80 gap-16">
+          <div className="lg:border-l-[0.1px] lg:pl-7 border-red-400">
             <h1 className="uppercase text-25 font-bold text-[#1D0605] ">
               faça o seu pedido agora mesmo!
             </h1>
@@ -81,8 +81,8 @@ function Delivery() {
               <strong>Empires Burger</strong>, com temática medieval!
             </p>
           </div>
-          <div className="w-[100%] md:w-[28%]">
-            <button className="bg-[#FAE4D0] w-full p-3 md:mr-5 rounded-md text-red-600 font-bold text-[18px] transition-transform transform hover:-translate-y-1">
+          <div className="w-[100%] lg:w-[28%]">
+            <button className="bg-[#FAE4D0] w-full p-3 lg:mr-5 rounded-lg text-red-600 font-bold text-[18px] transition-transform transform hover:-translate-y-1">
               SOLICITAR PEDIDO
             </button>
           </div>
