@@ -6,13 +6,14 @@ import bannerMobile from "../../../assets/png/Banner mobile 1.png";
 
 export const Header = () => {
   return (
-    <div>
+    <div className="">
       <div className="relative">
         <HeaderMenu />
+        <HeaderContent />
         <img
           src={bannerHeader}
           alt={""}
-          className="hidden md:block w-full h-520 z-0 relative"
+          className="hidden md:block w-full xl:h-520 lg:h-[500px] md:[600px] h-[450px] z-0 relative"
         />
         <img
           src={bannerMobile}
@@ -21,7 +22,6 @@ export const Header = () => {
         />
         <HeaderBottomMenu />
       </div>
-      <HeaderContent />
     </div>
   );
 };

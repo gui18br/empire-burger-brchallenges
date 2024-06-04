@@ -10,16 +10,16 @@ function PersonalizedService() {
           </div>
           <div className="md:ml-10 ml-0 md:mt-40 mt-10">
             <div className="flex flex-col items-start">
-              <h1 className="text-secondary font-bold text-[41px] mr-2">
+              <h1 className="text-secondary font-bold md:text-[41px] text-25 mr-2">
                 ATENDIMENTO
               </h1>
-              <h1 className="bg-300 text-secondary p-1 rounded-lg text-[41px] font-bold">
+              <h1 className="bg-300 text-secondary p-1 rounded-lg md:text-[41px] text-25 font-bold">
                 PERSONALIZADO
               </h1>
               <div className="flex items-center mt-5">
                 <h2 className="text-primary text-start text-[16px] mr-1 mb-4">
-                  Todos os nossos clientes são tratados como rei e <br />{" "}
-                  rainha, com a nossa colunaria artesanal.
+                  Todos os nossos clientes são tratados como rei e rainha, com a
+                  nossa colunaria artesanal.
                 </h2>
               </div>
               <button className="bg-red-600 text-white h-[53px] w-[230px] rounded-md text-[23px] mt-3 transition-transform transform hover:-translate-y-1">

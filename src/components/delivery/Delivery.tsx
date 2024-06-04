@@ -36,7 +36,7 @@ function Delivery() {
           <img src={phone} alt="" />
         </div>
         <div className="md:ml-10">
-          <h1 className="text-secondary text-[32px] font-bold mb-4">
+          <h1 className="text-secondary md:text-[32px] text-25 font-bold mb-4">
             NOSSAS ENTREGAS
           </h1>
           <div className="flex justify-center items-center">
@@ -44,20 +44,22 @@ function Delivery() {
               {deliveries.map((delivery, index) => (
                 <div
                   key={index}
-                  className="bg-white md:w-[569px] h-[90px] hover:shadow-2xl shadow-black py-2 px-4 rounded-lg transition-transform transform hover:translate-y-[-5px] flex gap-5 items-center"
+                  className="bg-white sm:w-[569px] w-[340px] h-[90px] hover:shadow-2xl shadow-black py-2 px-4 rounded-lg transition-transform transform hover:translate-y-[-5px] flex gap-5 items-center"
                 >
-                  <div className="rounded-full p-4 bg-400 w-[65px] h-[65px] flex justify-center items-center ">
+                  <div className="flex justify-center items-center bg-400 md:p-5 p-4 rounded-full  ">
                     <img
                       src={delivery.img}
-                      alt=""
-                      className="w-[30px] h-[30px]"
+                      alt="Description"
+                      className="rounded-full w-[30px] h-[30px]"
                     />
                   </div>
                   <div className="border-l-[1px] border-gray-300 pl-5 w-[300px] md:w-full">
-                    <h1 className="font-bold text-[20px] text-secondary">
+                    <h1 className="font-bold md:text-[20px] text-18 text-secondary">
                       {delivery.title}
                     </h1>
-                    <p className="text-primary">{delivery.description}</p>
+                    <p className="text-primary text-[14px] md:text-[16px]">
+                      {delivery.description}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -80,7 +82,7 @@ function Delivery() {
             </p>
           </div>
           <div className="w-[100%] md:w-[28%]">
-            <button className="bg-[#FAE4D0] w-full  p-3 md:mr-5 rounded-md text-red-600 font-bold text-[18px] transition-transform transform hover:-translate-y-1">
+            <button className="bg-[#FAE4D0] w-full p-3 md:mr-5 rounded-md text-red-600 font-bold text-[18px] transition-transform transform hover:-translate-y-1">
               SOLICITAR PEDIDO
             </button>
           </div>

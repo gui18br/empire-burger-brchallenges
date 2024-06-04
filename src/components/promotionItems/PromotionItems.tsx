@@ -7,10 +7,10 @@ function PromotionItems() {
     <div className="flex justify-center">
       <div className="flex flex-col items-center justify-center md:mt-32 mt-80">
         <div className="w-[88%] md:w-full">
-          <h1 className="text-32 text-secondary font-bold text-left">
+          <h1 className="md:text-32 text-25 text-secondary font-bold text-left">
             OFERTAS ESPECIAIS
           </h1>
-          <p className="text-primary mb-5 text-left">
+          <p className="text-primary mb-5 text-left ">
             Aproveite todas as nossas ofertas, fiquem de olhos abertos, porque
             sempre estamos mudando o nosso cardapio.
           </p>

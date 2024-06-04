@@ -53,8 +53,10 @@ const CarouselItems = () => {
     <div className="flex justify-center">
       <div className="flex flex-col justify-center w-[88%] mt-[128px]">
         <div className="mb-[16px]">
-          <h1 className="text-32 text-secondary font-bold">Nossa realeza</h1>
-          <p className="text-primary text-[18px]">
+          <h1 className="md:text-32 text-secondary font-bold text-25">
+            Nossa realeza
+          </h1>
+          <p className="text-primary md:text-[18px]">
             A satisfação de nossos clientes em primeiro lugar!
           </p>
         </div>
