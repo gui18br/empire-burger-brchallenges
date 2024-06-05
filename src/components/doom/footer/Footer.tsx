@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div>
       <Location />
-      {/* <FooterContent /> */}
+      <FooterContent />
     </div>
   );
 };
