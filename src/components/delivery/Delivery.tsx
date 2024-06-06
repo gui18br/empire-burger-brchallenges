@@ -4,6 +4,7 @@ import delivery from "../../assets/png/delivery.png";
 import iceCream from "../../assets/png/iceCream.png";
 import ifood from "../../assets/ifood.svg";
 import phone2 from "../../assets/phone.svg";
+import { Element } from "react-scroll";
 
 function Delivery() {
   const deliveries = [
@@ -67,7 +68,10 @@ function Delivery() {
           </div>
         </div>
       </div>
-      <div className="mt-[138px] bg-red-600 w-[88%] flex items-center p-4 rounded-xl gap-3 lg:flex-row flex-col">
+      <Element
+        name="contact"
+        className="mt-[138px] bg-red-600 w-[88%] flex items-center p-4 rounded-xl gap-3 lg:flex-row flex-col"
+      >
         <div className="rounded-full p-4 mr-5 bg-red-700 w-[90px] h-[90px] flex justify-center items-center ml-2">
           <img src={phone2} alt="" />
         </div>
@@ -87,7 +91,7 @@ function Delivery() {
             </button>
           </div>
         </div>
-      </div>
+      </Element>
     </div>
   );
 }

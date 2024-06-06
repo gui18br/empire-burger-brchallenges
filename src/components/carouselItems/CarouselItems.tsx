@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { getTestimonials } from "../../services/routes";
+import { Element } from "react-scroll";
 
 interface TestimonialsProps {
   name: string;
@@ -50,7 +51,7 @@ const CarouselItems = () => {
   }, [instanceRef]);
 
   return (
-    <div className="flex justify-center">
+    <Element name="coments" className="flex justify-center">
       <div className="flex flex-col justify-center w-[88%] mt-[128px]">
         <div className="mb-[16px]">
           <h1 className="md:text-32 text-secondary font-bold text-25">
@@ -92,7 +93,7 @@ const CarouselItems = () => {
           ))}
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 

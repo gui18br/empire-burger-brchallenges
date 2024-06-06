@@ -1,3 +1,5 @@
+import { Element } from "react-scroll";
+
 import oferta1 from "../../assets/png/oferta-1.png";
 import oferta2 from "../../assets/png/oferta-2.png";
 import oferta3 from "../../assets/png/oferta-3.png";
@@ -6,7 +8,7 @@ function PromotionItems() {
   return (
     <div className="flex justify-center w-full">
       <div className="flex flex-col items-center justify-center md:mt-32 mt-80 w-[88%]">
-        <div className="w-full">
+        <Element name="promotion" className="w-full">
           <h1 className="md:text-32 text-25 text-secondary font-bold text-left">
             OFERTAS ESPECIAIS
           </h1>
@@ -14,7 +16,7 @@ function PromotionItems() {
             Aproveite todas as nossas ofertas, fiquem de olhos abertos, porque
             sempre estamos mudando o nosso cardapio.
           </p>
-        </div>
+        </Element>
         <div className="relative md:w-full">
           <div className="grid md:grid-cols-3 gap-2">
             <img src={oferta1} className="md:col-span-2" />

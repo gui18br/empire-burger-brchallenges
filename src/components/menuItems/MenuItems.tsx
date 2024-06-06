@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import bannerMenu from "../../assets/png/Rectangle 610.png";
 import bannerMenu2 from "../../assets/png/bannerOferta2.png";
 import { getMenuBurger } from "../../services/routes";
+import { Element } from "react-scroll";
 
 interface MenuItemsProps {
   plate: string;
@@ -28,7 +29,10 @@ function MenuItems() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center lg:items-center w-full">
+    <Element
+      name="menu"
+      className="flex flex-col justify-center lg:items-center w-full h-full"
+    >
       <div className="mt-16 flex flex-col lg:flex-row">
         <div className="relative">
           <div className="absolute z-10 w-full flex justify-center mt-6 lg:mt-36 ">
@@ -63,7 +67,7 @@ function MenuItems() {
             className="w-full h-[250px] block lg:hidden"
           />
         </div>
-        <div className="flex justify-center bg-orange-950 lg:w-[60%] h-auto">
+        <div className="flex justify-center bg-orange-950 lg:w-[60%] h-full">
           <div className="flex flex-col justify-center lg:justify-start w-[88%]">
             <div className="flex justify-start mt-16">
               <h1 className="text-yellow-500 text-32 lg:block hidden">
@@ -106,7 +110,7 @@ function MenuItems() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }
 

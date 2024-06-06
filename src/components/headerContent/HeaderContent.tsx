@@ -1,6 +1,6 @@
 function HeaderContent() {
   return (
-    <div className="absolute z-10 w-full flex justify-center mt-36 md:mt-32 lg:mt-40 ">
+    <div className="absolute z-10 w-full flex justify-center mt-24 md:mt-32 lg:mt-40 ">
       <div className="w-[88%]">
         <h2 className="text-secondary text-18 lg:text-[22px] font-bold">
           Uma nova experiência!
