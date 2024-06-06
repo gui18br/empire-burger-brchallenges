@@ -21,16 +21,32 @@ function PromotionItems() {
           <div className="grid md:grid-cols-3 gap-2">
             <img src={oferta1} className="md:col-span-2" />
             <div className="absolute top-0 left-0 text-white p-4">
-              <h1 className="text-3xl font-bold">BURGER IMPERIAL+BATATA</h1>
-              <p className="text-lg">250kg</p>
+              <h1 className="sm:text-3xl text-xl">BURGER IMPERIAL+BATATA</h1>
+              <p className="sm:text-lg">250kg</p>
             </div>
             <div className="absolute bottom-0 lg:block hidden lg:left-1/2 text-white p-4">
               <p className="text-xl">Apenas</p>
-              <h1 className="text-5xl font-bold">HOJE</h1>
+              <h1 className="text-5xl">HOJE</h1>
             </div>
             <div className="md:col-span-1 grid md:grid-cols-1 gap-1">
-              <img src={oferta2} className="w-full" />
-              <img src={oferta3} className="w-full" />
+              <div className="relative">
+                <img src={oferta2} className="w-full" />
+                <div className="absolute inset-0 flex items-start justify-start text-[#1D0605E5] p-4">
+                  <div>
+                    <h1 className="text-xl">BATATA</h1>
+                    <p className="text-lg">150kg</p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative">
+                <img src={oferta3} className="w-full" />
+                <div className="absolute inset-0 flex items-start justify-start text-[#1D0605E5] p-4">
+                  <div>
+                    <h1 className="text-xl">SORVETE</h1>
+                    <p className="text-lg">50kg</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
