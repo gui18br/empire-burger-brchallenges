@@ -1,28 +1,25 @@
-import bodyClock from "../../assets/png/body-clock.png";
-import clock from "../../assets/png/clock.png";
+import clock from "../../assets/timer.svg";
 
 function OpeningHours() {
   return (
-    <div className="flex justify-center mt-16">
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 ml-3">
-        <div className="bg-red-600 w-570 h-130.93 rounded-xl text-white flex justify-center items-center gap-6">
-          <div className="relative bg-red-700 p-5 rounded-full ">
-            <img src={bodyClock} alt="Body Clock" className="" />
-            <div className="absolute flex top-9 right-7 justify-center items-center">
-              <img src={clock} alt="Clock" className="block" />
-            </div>
+    <div className="flex justify-center mt-16 ">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 w-[88%]">
+        <div className="bg-red-600 h-130.93 rounded-xl text-white flex justify-center items-center md:gap-8 gap-3 align-middle">
+          <div className=" ml-2">
+            <img
+              src={clock}
+              alt=""
+              className=" bg-red-700 p-3 sm:p-5 rounded-full "
+            />
           </div>
-          <div
-            className="pl-6 mr-5"
-            style={{ borderLeftWidth: "0.01px", borderColor: "#1D060566" }}
-          >
-            <h1 className="text-25 font-bold text-[#1D0605B0]">
+          <div className="pl-4 xl:mr-20 border-l-[0.1px] border-red-800">
+            <h1 className="md:text-25 text-18 font-bold text-[#1D0605B0]">
               Horário de funcionamento
             </h1>
-            <p className="text-white">
+            <p className="text-white sm:text-[14px] text-[13px]">
               Segunda-feira a sexta-feira: <strong>17h00 - 23h00</strong>
             </p>
-            <p className="text-white">
+            <p className="text-white sm:text-[14px] text-[13px]">
               Sabado a Domíngo: <strong>18h30 - 23h00</strong>
             </p>
           </div>

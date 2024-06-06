@@ -1,29 +1,21 @@
 function HeaderContent() {
   return (
-    <div className="flex justify-start">
-      <div className="absolute z-10 top-40 ml-[87px]">
-        <div className="bg-transparent text-start">
-          <h2 className="text-secondary  font-bold text-22.86 ">
-            Uma nova experiência!
-          </h2>
-          <div className="flex text-77.65 leading-70">
-            <h1 className="text-secondary font-bold mr-2">KING</h1>
-            <h1 className="text-300 font-bold ">BURGER</h1>
-          </div>
-          <div className="flex items-center mt-5">
-            <h2 className="text-primary text-start text-22.86 mr-1">
-              Para quem tem um
-            </h2>
-            <h2 className="bg-300 font-bold text-secondary rounded-md text-start text-22.86">
-              Apetite de um REI!
-            </h2>
-          </div>
-          <button className="bg-red-600 text-white w-48 h-12 gap-12 rounded-md text-22.86 mt-3 transition-transform transform hover:-translate-y-1">
-            Comprar Agora
-          </button>
-        </div>
+    <div className="absolute z-10 w-full flex justify-center mt-24 md:mt-32 lg:mt-40 ">
+      <div className="w-[88%]">
+        <h2 className="text-secondary text-18 lg:text-[22px] font-bold">
+          Uma nova experiência!
+        </h2>
+        <h1 className="text-secondary text-[53px] lg:text-[77px]">
+          KING <span className="text-300">BURGER</span>
+        </h1>
+        <h2 className="text-18 text-primary lg:text-[22px]">
+          Para quem tem um{" "}
+          <span className="bg-300 p-1 rounded-md">Apetite de um REI!</span>
+        </h2>
+        <button className="bg-red-600 text-white h-11 lg:h-12 w-36 lg:w-48 lg:text-[22px] rounded-md text-[16px] mt-3 transition-transform transform hover:-translate-y-1">
+          Comprar agora
+        </button>
       </div>
-      <div className="w-[50%]"></div>
     </div>
   );
 }
