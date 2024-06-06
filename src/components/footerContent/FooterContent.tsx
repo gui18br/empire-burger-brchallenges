@@ -84,8 +84,8 @@ export const FooterContent = () => {
         </Element>
         <div className="flex flex-col justify-center items-center mt-7">
           <hr className="w-full border-[#1D060526]" />
-          <div className="mt-4">
-            <h2 className="font-bold text-gray-700">
+          <div className="mt-4 sm:w-full w-[400px] flex justify-center">
+            <h2 className="font-bold text-gray-700 text-[14px]">
               2022 © EmpireBurger.{" "}
               <span className="text-gray-400 font-normal">
                 Todos os direitos reservados.
