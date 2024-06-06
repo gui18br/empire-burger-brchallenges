@@ -41,7 +41,7 @@ const CarouselItems = () => {
         setTestimonials(response);
         setTimeout(() => {
           instanceRef.current?.update();
-        }, 1500);
+        }, 1000);
       } catch (error) {
         console.error(error);
       }
@@ -68,7 +68,7 @@ const CarouselItems = () => {
               className="keen-slider__slide bg-white hover:transition-shadow hover:duration-500 hover:shadow-[#00000071] hover:shadow-2xl rounded-xl cursor-grab p-3"
             >
               <div className="">
-                <p className="text-primary line-clamp-4">
+                <p className="text-primary line-clamp-4 h-[100px]">
                   {testimonial.testimonial}
                 </p>
               </div>
