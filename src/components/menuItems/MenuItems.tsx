@@ -29,14 +29,11 @@ function MenuItems() {
   }, []);
 
   return (
-    <Element
-      name="menu"
-      className="flex flex-col justify-center lg:items-center w-full h-full"
-    >
-      <div className="mt-16 flex flex-col lg:flex-row">
+    <div className="flex flex-col justify-center lg:items-center w-full h-full">
+      <Element name="menu" className="mt-16 flex flex-col lg:flex-row">
         <div className="relative">
           <div className="absolute z-10 w-full flex justify-center mt-6 lg:mt-36 ">
-            <div className="w-[88%]  lg:w-full lg:ml-52 xl:ml-60">
+            <div className="w-[88%]  lg:w-full lg:ml-60">
               <div className="flex items-center xl:w-[500px] lg:w-[400px]">
                 <h1 className="text-secondary font-bold lg:text-[41px] text-25">
                   ESCOLHA O SEU COMBO IMPERIAL,{" "}
@@ -67,7 +64,7 @@ function MenuItems() {
             className="w-full h-[250px] block lg:hidden"
           />
         </div>
-        <div className="flex justify-center bg-orange-950 lg:w-[60%] h-full">
+        <div className="flex justify-center bg-orange-950 lg:w-[50%] h-full">
           <div className="flex flex-col justify-center lg:justify-start w-[88%]">
             <div className="flex justify-start mt-16">
               <h1 className="text-yellow-500 text-32 lg:block hidden">
@@ -109,8 +106,8 @@ function MenuItems() {
             </div>
           </div>
         </div>
-      </div>
-    </Element>
+      </Element>
+    </div>
   );
 }
 
