@@ -39,9 +39,7 @@ const CarouselItems = () => {
       try {
         const response = await getTestimonials();
         setTestimonials(response);
-        if (instanceRef) {
-          instanceRef.current?.update();
-        }
+        instanceRef.current?.update();
       } catch (error) {
         console.error(error);
       }
