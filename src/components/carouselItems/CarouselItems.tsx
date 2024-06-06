@@ -39,14 +39,16 @@ const CarouselItems = () => {
       try {
         const response = await getTestimonials();
         setTestimonials(response);
-        instanceRef.current?.update();
+        setTimeout(() => {
+          instanceRef.current?.update();
+        }, 1500);
       } catch (error) {
         console.error(error);
       }
     };
 
     fetchTestimonials();
-  }, [instanceRef, testimonials]);
+  }, [instanceRef]);
 
   return (
     <Element name="coments" className="flex justify-center">
