@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
-import "keen-slider/keen-slider.min.css";
 import { getTestimonials } from "../../services/routes";
 import { Element } from "react-scroll";
+import "keen-slider/keen-slider.min.css";
 
 interface TestimonialsProps {
   name: string;
@@ -46,7 +46,7 @@ const CarouselItems = () => {
     };
 
     fetchTestimonials();
-  }, [instanceRef]);
+  }, [instanceRef, testimonials]);
 
   return (
     <Element name="coments" className="flex justify-center">
