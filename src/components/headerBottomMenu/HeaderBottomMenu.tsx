@@ -1,6 +1,6 @@
-import burger from "../../assets/png/burger.png";
-import delivery from "../../assets/png/delivery.png";
-import atendimento from "../../assets/png/atendimento.png";
+import burger from "../../assets/burger.svg";
+import delivery from "../../assets/delivery.svg";
+import atendimento from "../../assets/headset.svg";
 
 function HeaderBottomMenu() {
   const items = [

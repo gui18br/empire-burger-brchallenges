@@ -1,7 +1,7 @@
 import logo from "../../assets/png/logo.png";
 import ifood from "../../assets/png/ifood-43 1.png";
 import instagram from "../../assets/png/instagram-brands.png";
-import whatsapp from "../../assets/png/whatsapp.png";
+import whatsapp from "../../assets/whatsapp.svg";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { NavLinks } from "../navLinks/NavLinks";

@@ -1,7 +1,7 @@
 import phone from "../../assets/png/card-phone.png";
-import whatsapp from "../../assets/png/whatsapp.png";
-import delivery from "../../assets/png/delivery.png";
-import iceCream from "../../assets/png/iceCream.png";
+import whatsapp from "../../assets/whatsapp.svg";
+import delivery from "../../assets/delivery.svg";
+import iceCream from "../../assets/ice-cream.svg";
 import ifood from "../../assets/ifood.svg";
 import phone2 from "../../assets/phone.svg";
 import { Element } from "react-scroll";
@@ -45,13 +45,13 @@ function Delivery() {
               {deliveries.map((delivery, index) => (
                 <div
                   key={index}
-                  className="bg-white sm:w-[569px] w-[340px] h-[90px] hover:shadow-2xl shadow-black py-2 px-4 rounded-lg transition-transform transform hover:translate-y-[-5px] flex gap-5 items-center"
+                  className="bg-white sm:w-[569px] w-[340px] h-[90px] hover:shadow-2xl shadow-black py-2 px-4 rounded-lg transition-transform transform hover:translate-y-[-5px] flex gap-5 justify-center items-center"
                 >
-                  <div className="flex justify-center items-center bg-400 md:p-5 p-4 rounded-full  ">
+                  <div className="flex justify-center items-center bg-400 md:p-6  p-4 rounded-full  ">
                     <img
                       src={delivery.img}
                       alt="Description"
-                      className="rounded-full w-[30px] h-[30px]"
+                      className="w-[38px] h-[30px]  "
                     />
                   </div>
                   <div className="border-l-[1px] border-gray-300 pl-5 w-[300px] md:w-full">

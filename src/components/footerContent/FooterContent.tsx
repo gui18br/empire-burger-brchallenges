@@ -1,7 +1,7 @@
 import { Element, Link } from "react-scroll";
 import logo from "../../assets/png/Group 210.png";
 import ifood from "../../assets/png/ifood-43 2.png";
-import instagram from "../../assets/png/insta.png";
+import instagram from "../../assets/instagram.svg";
 
 export const FooterContent = () => {
   return (
