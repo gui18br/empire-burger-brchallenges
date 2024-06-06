@@ -6,16 +6,20 @@ function OpeningHours() {
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 w-[88%]">
         <div className="bg-red-600 h-130.93 rounded-xl text-white flex justify-center items-center md:gap-8 gap-3 align-middle">
           <div className=" ml-2">
-            <img src={clock} alt="" className=" bg-red-700 p-5 rounded-full " />
+            <img
+              src={clock}
+              alt=""
+              className=" bg-red-700 p-3 sm:p-5 rounded-full "
+            />
           </div>
           <div className="pl-4 xl:mr-20 border-l-[0.1px] border-red-800">
             <h1 className="md:text-25 text-18 font-bold text-[#1D0605B0]">
               Horário de funcionamento
             </h1>
-            <p className="text-white text-[14px]">
+            <p className="text-white sm:text-[14px] text-[13px]">
               Segunda-feira a sexta-feira: <strong>17h00 - 23h00</strong>
             </p>
-            <p className="text-white text-[14px]">
+            <p className="text-white sm:text-[14px] text-[13px]">
               Sabado a Domíngo: <strong>18h30 - 23h00</strong>
             </p>
           </div>
